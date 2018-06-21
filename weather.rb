@@ -9,8 +9,8 @@ weather = {
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 def location(weather)
   weather.each do |thing, info|
-    until info == "New York"
-      puts info
+    until info == 66.3
+      puts info[1]
     end
   end
 end
